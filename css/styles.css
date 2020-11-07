@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Varela Round', sans-serif;
+}
+
+img{
+    width: auto;
+    height: 80px;
+}
+header{
+    background-color: #1dd15d;
+    height: 8.4vh;
+    width: 100%;
+}
+
+nav{
+    /* background-color: brown; */
+    width: 62%;
+    display: flex;
+    height: 80px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav ul{
+    display: flex;
+}
+
+.nav ul li{
+    list-style: none;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    /* background-color: burlywood; */
+    padding: 28px 17px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+main{
+    background-color: #1ed760;
+    height: 60vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    font-size: 80px;
+    color: white;
+}
+
+main a{
+    padding: 15px 60px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 40px;
+    color: white;
+    background-color:#1dd15d;
+    text-transform: uppercase;
+    border: 2px solid white;
+    text-decoration: none;
+}
+
+main a:hover{
+    cursor: pointer;
+    background-color: #34ef76;
+}
+
+aside .listen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: yellowgreen; */
+    height: 31.6vh;
+}
+
+aside .listen h2{
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+aside .listen p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+aside .listen a{
+    font-size: 14px;
+    padding: 15px 60px;
+    text-decoration: none;
+    color: gray;
+    text-transform: uppercase;
+    font-weight: 300;
+    border: 2px solid gray;
+    border-radius: 50px;
+}
