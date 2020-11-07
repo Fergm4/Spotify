@@ -1,0 +1,43 @@
+header{
+    height: 8vh;
+}
+body{
+    display: none;
+}
+header nav{
+    height: 8vh;
+    width: 70%;
+    margin: 0 auto;
+}
+
+nav a{
+    display: flex;
+    align-items: center;
+}
+
+header nav img{
+    height: 15px;
+}
+
+.nav{
+    display: none;
+}
+
+.nav2 ul{
+    display: flex;
+}
+
+.nav2 ul li{
+    list-style: none;
+}
+
+.nav2 ul li a{
+    text-decoration: none;
+    /* background-color: burlywood; */
+    padding: 28px 17px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+}
