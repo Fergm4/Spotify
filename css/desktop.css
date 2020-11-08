@@ -84,11 +84,3 @@ nav a img{
     border: 2px solid #1dd15d;
 }
 
-main .main a{
-    padding: 18px 50px;
-}
-
-main .main a:hover{
-    background-color: white;
-    color: #34ef76;
-}
